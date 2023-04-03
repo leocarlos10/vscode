@@ -8,7 +8,6 @@ import javax.swing.JOptionPane;
  * en este proyecto utilizo un arrayList para almacenar los objetos y 
  * simplemente utilizo las clases que ya tenia como especie de una mini libreria.
  * 
- * progrma completado.
  */
 
 public class main_p {
