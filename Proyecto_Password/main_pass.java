@@ -11,9 +11,9 @@ public class main_pass {
                                                             +"si\n"
                                                             +"no"); 
                                                     
-      int tamaño_clave=0;                                         
-       if(tamaño_longitud.equals("si")){
-       tamaño_clave=Integer.parseInt(JOptionPane.showInputDialog("ingrese el tamaño de la clave"));
+        int tamaño_clave=0;                                         
+        if(tamaño_longitud.equals("si")){
+            tamaño_clave=Integer.parseInt(JOptionPane.showInputDialog("ingrese el tamaño de la clave"));
         }                                           
       
         Password clave;
@@ -33,7 +33,6 @@ public class main_pass {
                 clave.validar();
                
              }  
-        }
-        
+        } 
     }
 }

@@ -16,7 +16,7 @@ public class Rectangulo extends Poligonos {
     public double getAltura(){
         return altura;
     }
-
+// implementacion del metodo abstracto para el rectangulo
     public double area(){
      
        return base*altura; /*como el area del rectangulo solo es multiplicar

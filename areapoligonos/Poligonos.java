@@ -1,5 +1,8 @@
 package areapoligonos;
 
+/*
+ * ejemplo de una clase abstracta
+ */
 public abstract class Poligonos {
 
     protected int numero_lados;
@@ -13,8 +16,12 @@ public abstract class Poligonos {
 
         return "El numero de lados del Poligono es: "+numero_lados;
     }
-
-     public abstract double area();
+/*
+ * un poligono esta compuesto por muchas figuras y por si solo no se le puede hallar el area.
+ * por lo tanto este es un metodo abstracto significa que no tiene implementacion 
+ * ahora cada subclase que herede de esta debera implementar este metodo
+ */
+     public abstract double area(); 
 
     
     

@@ -6,6 +6,10 @@ utilizando la clase abstracta poligono
 y con la ayuda del polimorfismo pudes instanciar un 
 objeto de tipo poligono de la clase rectangulo o de la clase triangulo
 */ 
+
+/*
+ * aun puedo refactorizar este proyecto
+ */
 public class main_po {
 
     public static void main(String args[]){
