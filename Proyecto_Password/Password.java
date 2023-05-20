@@ -34,11 +34,10 @@ public class Password {
             case 2: char mayusculas= (char) ((int) (Math.random()*(90-65)+65));
                          password+=mayusculas;
                          break;
-             default: char numeros=(char) ((int) (Math.random()*(57-48)+48));
+            default: char numeros=(char) ((int) (Math.random()*(57-48)+48));
                          password+=numeros;
                          break;
          }
-
       }
         this.password=password;
         return password;
