@@ -1,5 +1,6 @@
-package Proyecto_Password;
 
+package Proyecto_Password;
+     
 import javax.swing.JOptionPane;
 
 public class main_pass {
