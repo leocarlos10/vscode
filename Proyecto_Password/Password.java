@@ -67,10 +67,7 @@ public class Password {
              
       }
 
-       if(numeros>=5 && minusculas>=1 && mayusculas>=2){
-
          System.out.println("Este es una clave segura "+generar());
 
-       }
    }
 }
